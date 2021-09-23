@@ -1,7 +1,7 @@
 programa
 {
 	
-	funcao inicio(){
+	funcao inicio(){
 		
 		
 		cadeia nome
@@ -44,7 +44,7 @@ programa
 
 		diasVividos= diasVividosincompleto+diaAtual
 		
-		escreva("esses são os totais dias que voçê está vivo até hoje"+diasVividos)
+		escreva("esses são os totais dias que voçê está vivo até hoje "+diasVividos)
 		
 		
 	}
@@ -54,7 +54,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 975; 
+ * @POSICAO-CURSOR = 1038; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
