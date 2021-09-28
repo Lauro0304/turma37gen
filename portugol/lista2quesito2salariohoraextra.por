@@ -26,8 +26,8 @@ programa
 		salarioMenor= horas*10
 
 		se(horaExtra>0.1){
-			escreva("este funcionario trabalhou ", horaExtra, " horas a mais, \n receberá R$ ",salarioNormal," do salario normal \n e recebera R$ ",salarioExtra," a mais pelo \n trabalho extra")
-		escreva(" salario total R$", salarioNormal+salarioExtra)
+			escreva("este funcionario trabalhou ", horaExtra, " horas a mais, \n receberá R$ ",salarioNormal," do salario normal \n e recebera R$ ",salarioExtra," a mais pelo trabalho extra")
+		escreva("\n salario total R$", salarioNormal+salarioExtra)
 		}
 		
 		senao se (horaExtra<0){
@@ -48,7 +48,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 592; 
+ * @POSICAO-CURSOR = 619; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
