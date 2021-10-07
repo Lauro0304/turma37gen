@@ -1,4 +1,4 @@
-package Exercicios1;
+package exercicios1;
 
 public class Oimundo {
 	public static void main(String[] args) {
