@@ -39,19 +39,11 @@ public class PostagemModel {
 	@JsonIgnoreProperties("postagens")
 	private TemaModel temaPostagem;
 
-	public TemaModel getTemaPostagem() {
-		return temaPostagem;
-	}
-
-	public void setTemaPostagem(TemaModel temaPostagem) {
-		this.temaPostagem = temaPostagem;
-	}
-
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
@@ -78,5 +70,15 @@ public class PostagemModel {
 	public void setData(Date data) {
 		this.data = data;
 	}
+
+	public TemaModel getTemaPostagem() {
+		return temaPostagem;
+	}
+
+	public void setTemaPostagem(TemaModel temaPostagem) {
+		this.temaPostagem = temaPostagem;
+	}
+
+	
 
 }
