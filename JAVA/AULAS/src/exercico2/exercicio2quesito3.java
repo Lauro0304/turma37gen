@@ -1,6 +1,7 @@
-import java.util.Scanner;
+ import java.util.Scanner;
 
 public class exercicio2quesito3 {
+	
 
 	public static void main(String[] args) {
 		

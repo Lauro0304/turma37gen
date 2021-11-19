@@ -19,9 +19,9 @@ public class UsuarioDetailsServiceImp implements UserDetailsService {
 	
 	
 	@Override
-	public UserDetails loadUserByUsername(String usuario) throws UsernameNotFoundException {
-		Optional<UsuarioModel> user = usuarioRepository.findByUsuario(usuario);
-		user.orElseThrow(()-> new UsernameNotFoundException(usuario + "not found."));
+	public UserDetails loadUserByUsername(String usuarioModel) throws UsernameNotFoundException {
+		Optional<UsuarioModel> user = usuarioRepository.findAllByUsuarioModelContainingIgnoreCase(usuarioModel);
+		user.orElseThrow(()-> new UsernameNotFoundException(usuarioModel + "not found."));
 		
 		return user.map(UsuarioDetailsImp:: new).get();
 	}

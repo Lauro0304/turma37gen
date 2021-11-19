@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 @RestController
 @RequestMapping("/")
 	
-	public class BlogPessoalApplication {
+	public class blogPessoalApplication {
 
 	
 	@GetMapping
@@ -19,7 +19,6 @@ import org.springframework.web.servlet.ModelAndView;
 }
 
 	public static void main(String[] args) {
-		SpringApplication.run(BlogPessoalApplication.class, args);
+		SpringApplication.run(blogPessoalApplication.class, args);
    	}
 }
-

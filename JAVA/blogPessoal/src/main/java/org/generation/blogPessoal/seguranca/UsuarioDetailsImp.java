@@ -14,7 +14,7 @@ public class UsuarioDetailsImp implements UserDetails {
 	private String passWord;
 
 	public UsuarioDetailsImp(UsuarioModel user) {
-		this.userName = user.getUsuario();
+		this.userName = user.getUsuarioModel();
 		this.passWord = user.getSenha();
 
 	}
