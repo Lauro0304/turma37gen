@@ -30,6 +30,23 @@ INSERT INTO tb_classe(classe, raca, legiao) VALUES
 ("Bruxo","Orck","Orda"),
 ("Bardo","Orck","Orda");
 
+INSERT INTO tb_personagem(nome, nivel, defesa, ataque, skill) VALUES
+("Izak", "45" , "1500" , "1700" , "Mil Cortes Divinos"),
+("Kratos", "99" , "3500" , "6700" , "Laminas do Caos"),
+("Ulter", "70" , "2500" , "2000" , "Benção divina"),
+("Guldan", "80" , "2000" , "3200" , "Maldição Negra"),
+("Zeck", "30" , "900" , "1100" , "Lamina Eterna"),
+("Mari", "100" , "4500" , "7800" , "Zero Absoluto"),
+("Lass", "75" , "3500" , "4700" , "Teleporte"),
+("Ridan", "50" , "1500" , "1000" , "Marionete");
+
+
+
+
+
+
+
+
 
 
 
